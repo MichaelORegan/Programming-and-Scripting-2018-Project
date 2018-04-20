@@ -11,6 +11,8 @@ with open("data/irisdataset.csv") as f:
 
 data = np.genfromtxt("data/irisdataset.csv", delimiter=',')
 
+# looking at the Iris data set as a whole
+
 col1 = data[:,0]
 print(col1)
 
@@ -69,4 +71,55 @@ print("The mean petal width value is", meancol4)
 print("The median petal width value is", mediancol4)
 
 plt.hist(col4)
+plt.show()
+
+# Looking at the Iris data set as per Iris species
+
+col1setosa = col1[0:50]
+# it took me some time to figure out how to just take the 50 from column 1, the ',' in taking column 1 from the data threw me
+print(col1setosa)
+
+mincol1setosa = np.amin(col1setosa)
+maxcol1setosa = np.amax(col1setosa)
+meancol1setosa = np.mean(col1setosa)
+mediancol1setosa = np.median(col1setosa)
+
+print("The minimum setosa sepal length value is", mincol1setosa)
+print("The maximum setosa sepal length value is", maxcol1setosa)
+print("The mean setosa sepal length value is", meancol1setosa)
+print("The median setosa sepal length value is", mediancol1setosa)
+
+plt.hist(col1setosa)
+plt.show()
+
+col1versicolor = col1[50:100]
+print(col1versicolor)
+
+mincol1versicolor = np.amin(col1versicolor)
+maxcol1versicolor = np.amax(col1versicolor)
+meancol1versicolor = np.mean(col1versicolor)
+mediancol1versicolor = np.median(col1versicolor)
+
+print("The minimum versicolor sepal length value is", mincol1versicolor)
+print("The maximum versicolor sepal length value is", maxcol1versicolor)
+print("The mean versicolor sepal length value is", meancol1versicolor)
+print("The median versicolor sepal length value is", mediancol1versicolor)
+
+plt.hist(col1versicolor)
+plt.show()
+
+col1virginica = col1[100:151]
+print(col1virginica)
+
+mincol1virginica = np.amin(col1virginica)
+maxcol1virginica = np.amax(col1virginica)
+meancol1virginica = np.mean(col1virginica)
+mediancol1virginica = np.median(col1virginica)
+
+print("The minimum virginica sepal length value is", mincol1virginica)
+print("The maximum virginica sepal length value is", maxcol1virginica)
+print("The mean virginica sepal length value is", meancol1virginica)
+print("The median virginica sepal length value is", mediancol1virginica)
+
+plt.hist(col1virginica)
 plt.show()
