@@ -74,6 +74,7 @@ plt.hist(col4)
 plt.show()
 
 # Looking at the Iris data set as per Iris species
+#column 1 sepal length
 
 col1setosa = col1[0:50]
 # it took me some time to figure out how to just take the 50 from column 1, the ',' in taking column 1 from the data threw me
@@ -122,4 +123,154 @@ print("The mean virginica sepal length value is", meancol1virginica)
 print("The median virginica sepal length value is", mediancol1virginica)
 
 plt.hist(col1virginica)
+plt.show()
+
+# column 2 sepal width
+
+col2setosa = col2[0:50]
+print(col2setosa)
+
+mincol2setosa = np.amin(col2setosa)
+maxcol2setosa = np.amax(col2setosa)
+meancol2setosa = np.mean(col2setosa)
+mediancol2setosa = np.median(col2setosa)
+
+print("The minimum setosa sepal width value is", mincol2setosa)
+print("The maximum setosa sepal width value is", maxcol2setosa)
+print("The mean setosa sepal width value is", meancol2setosa)
+print("The median setosa sepal width value is", mediancol2setosa)
+
+plt.hist(col2setosa)
+plt.show()
+
+col2versicolor = col2[50:100]
+print(col2versicolor)
+
+mincol2versicolor = np.amin(col2versicolor)
+maxcol2versicolor = np.amax(col2versicolor)
+meancol2versicolor = np.mean(col2versicolor)
+mediancol2versicolor = np.median(col2versicolor)
+
+print("The minimum versicolor sepal width value is", mincol2versicolor)
+print("The maximum versicolor sepal width value is", maxcol2versicolor)
+print("The mean versicolor sepal width value is", meancol2versicolor)
+print("The median versicolor sepal width value is", mediancol2versicolor)
+
+plt.hist(col2versicolor)
+plt.show()
+
+col2virginica = col2[100:151]
+print(col2virginica)
+
+mincol2virginica = np.amin(col2virginica)
+maxcol2virginica = np.amax(col2virginica)
+meancol2virginica = np.mean(col2virginica)
+mediancol2virginica = np.median(col2virginica)
+
+print("The minimum virginica sepal width value is", mincol2virginica)
+print("The maximum virginica sepal width value is", maxcol2virginica)
+print("The mean virginica sepal width value is", meancol2virginica)
+print("The median virginica sepal width value is", mediancol2virginica)
+
+plt.hist(col2virginica)
+plt.show()
+
+# column 3 petal length
+
+col3setosa = col3[0:50]
+print(col3setosa)
+
+mincol3setosa = np.amin(col3setosa)
+maxcol3setosa = np.amax(col3setosa)
+meancol3setosa = np.mean(col3setosa)
+mediancol3setosa = np.median(col3setosa)
+
+print("The minimum setosa petal length value is", mincol3setosa)
+print("The maximum setosa petal length value is", maxcol3setosa)
+print("The mean setosa petal length value is", meancol3setosa)
+print("The median setosa petal length value is", mediancol3setosa)
+
+plt.hist(col3setosa)
+plt.show()
+
+col3versicolor = col3[50:100]
+print(col3versicolor)
+
+mincol3versicolor = np.amin(col3versicolor)
+maxcol3versicolor = np.amax(col3versicolor)
+meancol3versicolor = np.mean(col3versicolor)
+mediancol3versicolor = np.median(col3versicolor)
+
+print("The minimum versicolor petal length value is", mincol3versicolor)
+print("The maximum versicolor petal length value is", maxcol3versicolor)
+print("The mean versicolor petal length value is", meancol3versicolor)
+print("The median versicolor petal length value is", mediancol3versicolor)
+
+plt.hist(col3versicolor)
+plt.show()
+
+col3virginica = col3[100:151]
+print(col3virginica)
+
+mincol3virginica = np.amin(col3virginica)
+maxcol3virginica = np.amax(col3virginica)
+meancol3virginica = np.mean(col3virginica)
+mediancol3virginica = np.median(col3virginica)
+
+print("The minimum virginica petal length value is", mincol3virginica)
+print("The maximum virginica petal length value is", maxcol3virginica)
+print("The mean virginica petal length value is", meancol3virginica)
+print("The median virginica petal length value is", mediancol3virginica)
+
+plt.hist(col3virginica)
+plt.show()
+
+# column 4 petal width
+
+col4setosa = col4[0:50]
+print(col4setosa)
+
+mincol4setosa = np.amin(col4setosa)
+maxcol4setosa = np.amax(col4setosa)
+meancol4setosa = np.mean(col4setosa)
+mediancol4setosa = np.median(col4setosa)
+
+print("The minimum setosa petal width value is", mincol4setosa)
+print("The maximum setosa petal width value is", maxcol4setosa)
+print("The mean setosa petal width value is", meancol4setosa)
+print("The median setosa petal width value is", mediancol4setosa)
+
+plt.hist(col4setosa)
+plt.show()
+
+col4versicolor = col4[50:100]
+print(col4versicolor)
+
+mincol4versicolor = np.amin(col4versicolor)
+maxcol4versicolor = np.amax(col4versicolor)
+meancol4versicolor = np.mean(col4versicolor)
+mediancol4versicolor = np.median(col4versicolor)
+
+print("The minimum versicolor petal width value is", mincol4versicolor)
+print("The maximum versicolor petal width value is", maxcol4versicolor)
+print("The mean versicolor petal width value is", meancol4versicolor)
+print("The median versicolor petal width value is", mediancol4versicolor)
+
+plt.hist(col4versicolor)
+plt.show()
+
+col4virginica = col4[100:151]
+print(col4virginica)
+
+mincol4virginica = np.amin(col4virginica)
+maxcol4virginica = np.amax(col4virginica)
+meancol4virginica = np.mean(col4virginica)
+mediancol4virginica = np.median(col4virginica)
+
+print("The minimum virginica petal width value is", mincol4virginica)
+print("The maximum virginica petal width value is", maxcol4virginica)
+print("The mean virginica petal width value is", meancol4virginica)
+print("The median virginica petal width value is", mediancol4virginica)
+
+plt.hist(col4virginica)
 plt.show()
