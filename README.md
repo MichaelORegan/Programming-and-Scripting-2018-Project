@@ -1,4 +1,4 @@
-# Programming-and-Scripting-2018-Project
+# Programming and Scripting 2018 Project
 ## Iris Data Set Analysis
 
 https://en.wikipedia.org/wiki/Iris_flower_data_set
