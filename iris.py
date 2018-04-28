@@ -2,6 +2,8 @@
 # Program to analyse the Iris Data Set
 
 # https://matplotlib.org/users/pyplot_tutorial.html
+# https://www.datacamp.com/community/data-science-cheatsheets
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -35,7 +37,9 @@ print("The standard deviation sepal length value is", stddevcol1)
 plt.hist([col1], bins=25, range=(mincol1,maxcol1), align=("mid"), color= ["green"])
 # Histogram of col1, with 25 bars in the graph,range between the min and the max, mid alingned, colour green
 plt.title("Sepal Length")       # Giving the histogram a title
+# https://stackoverflow.com/questions/19614400/add-title-to-collection-of-pandas-hist-plots
 plt.xlabel("Sepal Length cm")   # Putting a label on the x axis
+# https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xlabel.html
 plt.ylabel("Frequency")         # Putting a label on the y axis
 plt.show()                      # show the histogram
 
