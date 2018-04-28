@@ -14,14 +14,17 @@ data = np.genfromtxt("data/irisdataset.csv", delimiter=',')
 # looking at the Iris data set as a whole
 
 # column 1 sepal length
-col1 = data[:,0]
+col1 = data[:,0] 
+# setting col1 as the first column of data
 print(col1)
+# printing the first column so that you can have a sanity check on the data when the value are printed
+ 
 
-mincol1 = np.amin(data[:,0])
-maxcol1 = np.amax(data[:,0])
-meancol1 = np.mean(data[:,0])
-mediancol1 = np.median(data[:,0])
-stddevcol1 = np.std(data[:,0])
+mincol1 = np.amin(data[:,0])        # minimum value from column 1
+maxcol1 = np.amax(data[:,0])        # maximum value from column 1
+meancol1 = np.mean(data[:,0])       # mean value of column 1
+mediancol1 = np.median(data[:,0])   # median value of column 1
+stddevcol1 = np.std(data[:,0])      # standard deviation of column 1
 
 print("The minimum sepal length value is", mincol1)
 print("The maximum sepal length value is", maxcol1)
@@ -29,8 +32,12 @@ print("The mean sepal length value is", meancol1)
 print("The median sepal length value is", mediancol1)
 print("The standard deviation sepal length value is", stddevcol1)
 
-plt.hist(col1)
-plt.show()
+plt.hist([col1], bins=25, range=(mincol1,maxcol1), align=("mid"), color= ["green"])
+# Histogram of col1, with 25 bars in the graph,range between the min and the max, mid alingned, colour green
+plt.title("Sepal Length")       # Giving the histogram a title
+plt.xlabel("Sepal Length cm")   # Putting a label on the x axis
+plt.ylabel("Frequency")         # Putting a label on the y axis
+plt.show()                      # show the histogram
 
 # column 2 sepal width
 
@@ -49,8 +56,11 @@ print("The mean sepal width value is", meancol2)
 print("The median sepal width value is", mediancol2)
 print("The standard deviation sepal width value is", stddevcol2)
 
-plt.hist(col2)
-plt.show()
+plt.hist([col2], bins=25, range=(mincol2,maxcol2), align=("mid"), color= ["green"])
+plt.title("Sepal Width")      
+plt.xlabel("Sepal Width cm")  
+plt.ylabel("Frequency")        
+plt.show()                     
 
 # column 3 petal length
 
@@ -69,8 +79,11 @@ print("The mean petal length value is", meancol3)
 print("The median petal length value is", mediancol3)
 print("The standard deviation petal length value is", stddevcol3)
 
-plt.hist(col3)
-plt.show()
+plt.hist([col3], bins=25, range=(mincol3,maxcol3), align=("mid"), color= ["green"])
+plt.title("Petal Length")       
+plt.xlabel("Petal Length cm")  
+plt.ylabel("Frequency")         
+plt.show()                      
 
 # column 4 petal width
 
@@ -89,7 +102,10 @@ print("The mean petal width value is", meancol4)
 print("The median petal width value is", mediancol4)
 print("The standard deviation petal width value is", stddevcol4)
 
-plt.hist(col4)
+plt.hist([col4], bins=25, range=(mincol4,maxcol4), align=("mid"), color= ["green"])
+plt.title("Petal Width")       
+plt.xlabel("Petal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 # Looking at the Iris data set as per Iris species
@@ -111,7 +127,10 @@ print("The mean setosa sepal length value is", meancol1setosa)
 print("The median setosa sepal length value is", mediancol1setosa)
 print("The standard deviation setosa sepal length value is", stddevcol1setosa)
 
-plt.hist(col1setosa)
+plt.hist([col1setosa], bins=25, range=(mincol1setosa,maxcol1setosa), align=("mid"), color= ["green"])
+plt.title("Iris Setosa Sepal Length")       
+plt.xlabel("Sepal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col1versicolor = col1[50:100]
@@ -129,7 +148,10 @@ print("The mean versicolor sepal length value is", meancol1versicolor)
 print("The median versicolor sepal length value is", mediancol1versicolor)
 print("The standard deviation versicolor sepal length value is", stddevcol1versicolor)
 
-plt.hist(col1versicolor)
+plt.hist([col1versicolor], bins=25, range=(mincol1versicolor,maxcol1versicolor), align=("mid"), color= ["green"])
+plt.title("Iris Versicolor Sepal Length")       
+plt.xlabel("Sepal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col1virginica = col1[100:151]
@@ -147,7 +169,10 @@ print("The mean virginica sepal length value is", meancol1virginica)
 print("The median virginica sepal length value is", mediancol1virginica)
 print("The standard deviation virginica sepal length value is", stddevcol1virginica)
 
-plt.hist(col1virginica)
+plt.hist([col1virginica], bins=25, range=(mincol1virginica,maxcol1virginica), align=("mid"), color= ["green"])
+plt.title("Iris Virginica Sepal Length")       
+plt.xlabel("Sepal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 # column 2 sepal width
@@ -167,7 +192,10 @@ print("The mean setosa sepal width value is", meancol2setosa)
 print("The median setosa sepal width value is", mediancol2setosa)
 print("The standard deviation setosa sepal width value is", stddevcol2setosa)
 
-plt.hist(col2setosa)
+plt.hist([col2setosa], bins=25, range=(mincol2setosa,maxcol2setosa), align=("mid"), color= ["green"])
+plt.title("Iris Setosa Sepal Width")       
+plt.xlabel("Sepal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col2versicolor = col2[50:100]
@@ -185,7 +213,10 @@ print("The mean versicolor sepal width value is", meancol2versicolor)
 print("The median versicolor sepal width value is", mediancol2versicolor)
 print("The standard deviation versicolor sepal width value is", stddevcol2versicolor)
 
-plt.hist(col2versicolor)
+plt.hist([col2versicolor], bins=25, range=(mincol2versicolor,maxcol2versicolor), align=("mid"), color= ["green"])
+plt.title("Iris Versicolor Sepal Width")       
+plt.xlabel("Sepal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col2virginica = col2[100:151]
@@ -203,7 +234,10 @@ print("The mean virginica sepal width value is", meancol2virginica)
 print("The median virginica sepal width value is", mediancol2virginica)
 print("The standard deviation virginica sepal width value is", stddevcol2virginica)
 
-plt.hist(col2virginica)
+plt.hist([col2virginica], bins=25, range=(mincol2virginica,maxcol2virginica), align=("mid"), color= ["green"])
+plt.title("Iris Virginica Sepal Width")       
+plt.xlabel("Sepal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 # column 3 petal length
@@ -223,7 +257,10 @@ print("The mean setosa petal length value is", meancol3setosa)
 print("The median setosa petal length value is", mediancol3setosa)
 print("The standard deviation setosa petal length value is", stddevcol3setosa)
 
-plt.hist(col3setosa)
+plt.hist([col3setosa], bins=25, range=(mincol3setosa,maxcol3setosa), align=("mid"), color= ["green"])
+plt.title("Iris Setosa Petal Length")       
+plt.xlabel("Petal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col3versicolor = col3[50:100]
@@ -241,7 +278,10 @@ print("The mean versicolor petal length value is", meancol3versicolor)
 print("The median versicolor petal length value is", mediancol3versicolor)
 print("The standard deviation versicolor petal length value is", stddevcol3versicolor)
 
-plt.hist(col3versicolor)
+plt.hist([col3versicolor], bins=25, range=(mincol3versicolor,maxcol3versicolor), align=("mid"), color= ["green"])
+plt.title("Iris Versicolor Petal Length")       
+plt.xlabel("Petal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col3virginica = col3[100:151]
@@ -259,7 +299,10 @@ print("The mean virginica petal length value is", meancol3virginica)
 print("The median virginica petal length value is", mediancol3virginica)
 print("The standard deviation virginica petal length value is", stddevcol3virginica)
 
-plt.hist(col3virginica)
+plt.hist([col3virginica], bins=25, range=(mincol3virginica,maxcol3virginica), align=("mid"), color= ["green"])
+plt.title("Iris Virginica Petal Length")       
+plt.xlabel("Petal Length cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 # column 4 petal width
@@ -279,7 +322,10 @@ print("The mean setosa petal width value is", meancol4setosa)
 print("The median setosa petal width value is", mediancol4setosa)
 print("The standard deviation setosa petal width value is", stddevcol4setosa)
 
-plt.hist(col4setosa)
+plt.hist([col4setosa], bins=25, range=(mincol4setosa,maxcol4setosa), align=("mid"), color= ["green"])
+plt.title("Iris Setosa Petal Width")       
+plt.xlabel("Petal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col4versicolor = col4[50:100]
@@ -297,7 +343,10 @@ print("The mean versicolor petal width value is", meancol4versicolor)
 print("The median versicolor petal width value is", mediancol4versicolor)
 print("The standard deviation versicolor petal width value is", stddevcol4versicolor)
 
-plt.hist(col4versicolor)
+plt.hist([col4versicolor], bins=25, range=(mincol4versicolor,maxcol4versicolor), align=("mid"), color= ["green"])
+plt.title("Iris Versicolor Petal Width")       
+plt.xlabel("Petal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
 
 col4virginica = col4[100:151]
@@ -315,5 +364,8 @@ print("The mean virginica petal width value is", meancol4virginica)
 print("The median virginica petal width value is", mediancol4virginica)
 print("The standard deviation virginica petal width value is", stddevcol4virginica)
 
-plt.hist(col4virginica)
+plt.hist([col4virginica], bins=25, range=(mincol4virginica,maxcol4virginica), align=("mid"), color= ["green"])
+plt.title("Iris Virginica Petal Width")       
+plt.xlabel("Petal Width cm")  
+plt.ylabel("Frequency")         
 plt.show()
