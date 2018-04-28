@@ -15,7 +15,7 @@ Through the Python programming language I will try to analyse this data calculat
 - The Maximum values of each data measurement set as a whole and as per each species of Iris flower.
 - The Mean values of each data measurement set as a whole and as per each species of Iris flower.
 
-### Sepal Length
+## Sepal Length
 ### Whole Dataset
 
 The minimum sepal length value is 4.3
@@ -46,7 +46,7 @@ The standard deviation virginica sepal length value is 0.629488681391
 
 As can be seen by the above values the Sepal Length values are close to the mean especially shown by the standard deviation of the Setosa Iris Flower.
 
-### Sepal Width
+## Sepal Width
 ### Whole Dataset
 
 The minimum sepal width value is 2.0
@@ -77,7 +77,7 @@ The standard deviation virginica sepal width value is 0.319255383666
 
 The Sepal Width values are even more closely grouped around the mean.  The standard deviation values for Sepal Width are all under .5.
 
-### Petal Length
+## Petal Length
 ### Whole Dataset
 
 The minimum petal length value is 1.0
@@ -110,7 +110,7 @@ Petal Length is where we see the highest standard deviation meaning that this is
 
 However looking at each flower individually we can see that this is also where the standard deviation is showing the us the measurement are very clusterd around the mean.
 
-### Petal Width
+## Petal Width
 ### Whole Dataset
 
 The minimum petal width value is 0.1
