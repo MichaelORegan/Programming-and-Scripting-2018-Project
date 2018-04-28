@@ -15,15 +15,17 @@ Through the Python programming language I will try to analyse this data calculat
 - The Maximum values of each data measurement set as a whole and as per each species of Iris flower.
 - The Mean values of each data measurement set as a whole and as per each species of Iris flower.
 
-Sepal Length
-Whole Dataset
+### Sepal Length
+### Whole Dataset
+
 The minimum sepal length value is 4.3
 The maximum sepal length value is 7.9
 The mean sepal length value is 5.84333333333
 The median sepal length value is 5.8
 The standard deviation sepal length value is 0.825301291785
 
-By Flower
+### By Flower
+
 The minimum setosa sepal length value is 4.3
 The maximum setosa sepal length value is 5.8
 The mean setosa sepal length value is 5.006
@@ -44,15 +46,17 @@ The standard deviation virginica sepal length value is 0.629488681391
 
 As can be seen by the above values the Sepal Length values are close to the mean especially shown by the standard deviation of the Setosa Iris Flower.
 
-Sepal Width
-Whole Dataset
+### Sepal Width
+### Whole Dataset
+
 The minimum sepal width value is 2.0
 The maximum sepal width value is 4.4
 The mean sepal width value is 3.054
 The median sepal width value is 3.0
 The standard deviation sepal width value is 0.432146580071
 
-By Flower
+### By Flower
+
 The minimum setosa sepal width value is 2.3
 The maximum setosa sepal width value is 4.4
 The mean setosa sepal width value is 3.418
@@ -73,15 +77,17 @@ The standard deviation virginica sepal width value is 0.319255383666
 
 The Sepal Width values are even more closely grouped around the mean.  The standard deviation values for Sepal Width are all under .5.
 
-Petal Length
-Whole Dataset
+### Petal Length
+### Whole Dataset
+
 The minimum petal length value is 1.0
 The maximum petal length value is 6.9
 The mean petal length value is 3.75866666667
 he median petal length value is 4.35
 The standard deviation petal length value is 1.75852918341
 
-By Flower
+### By Flower
+
 The minimum setosa petal length value is 1.0
 The maximum setosa petal length value is 1.9
 The mean setosa petal length value is 1.464
@@ -104,15 +110,17 @@ Petal Length is where we see the highest standard deviation meaning that this is
 
 However looking at each flower individually we can see that this is also where the standard deviation is showing the us the measurement are very clusterd around the mean.
 
-Petal Width
-Whole Dataset
+### Petal Width
+### Whole Dataset
+
 The minimum petal width value is 0.1
 The maximum petal width value is 2.5
 The mean petal width value is 1.19866666667
 The median petal width value is 1.3
 The standard deviation petal width value is 0.760612618588
 
-By Flower
+### By Flower
+
 The minimum setosa petal width value is 0.1
 The maximum setosa petal width value is 0.6
 The mean setosa petal width value is 0.244
