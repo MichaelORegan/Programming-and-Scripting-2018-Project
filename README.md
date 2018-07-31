@@ -67,7 +67,7 @@ The standard deviation sepal width value is 0.432146580071
 
 ### By Flower
 
-![](8 Col2 Setosa Sepal Width.png)
+![](8%20Col2%20Setosa%20Sepal%20Width.png)
 
 The minimum setosa sepal width value is 2.3
 The maximum setosa sepal width value is 4.4
