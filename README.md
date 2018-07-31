@@ -123,6 +123,8 @@ The mean versicolor petal length value is 4.26
 The median versicolor petal length value is 4.35
 The standard deviation versicolor petal length value is 0.465188133985
 
+![](13%20Col3%20Virginica%20Petal%20Length.png)
+
 The minimum virginica petal length value is 4.5
 The maximum virginica petal length value is 6.9
 The mean virginica petal length value is 5.552
