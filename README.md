@@ -84,6 +84,9 @@ The standard deviation virginica sepal width value is 0.319255383666
 The Sepal Width values are even more closely grouped around the mean.  The standard deviation values for Sepal Width are all under .5.
 
 ## Petal Length
+
+![](3%20Col3%20Petal%20Length.png)
+
 ### Whole Dataset
 
 The minimum petal length value is 1.0
