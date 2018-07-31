@@ -16,7 +16,7 @@ Through the Python programming language I will try to analyse this data calculat
 - The Mean values of each data measurement set as a whole and as per each species of Iris flower.
 
 ## Sepal Length
-![](Programming-and-Scripting-2018-Project/blob/master/1%20Col1%20Sepal%20Length.png)
+![](1%20Col1%20Sepal%20Length.png)
 
 ### Whole Dataset
 
