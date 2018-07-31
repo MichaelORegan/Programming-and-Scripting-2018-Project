@@ -77,6 +77,8 @@ The mean setosa sepal width value is 3.418
 The median setosa sepal width value is 3.4
 The standard deviation setosa sepal width value is 0.377194909828
 
+![](9%20Col2%20Versicolor%20Sepal%20Width.png)
+
 The minimum versicolor sepal width value is 2.0
 The maximum versicolor sepal width value is 3.4
 The mean versicolor sepal width value is 2.77
