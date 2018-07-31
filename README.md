@@ -115,6 +115,8 @@ The mean setosa petal length value is 1.464
 The median setosa petal length value is 1.5
 The standard deviation setosa petal length value is 0.171767284429
 
+![](12%20Col3%20Versicolor%20Petal%20Length.png)
+
 The minimum versicolor petal length value is 3.0
 The maximum versicolor petal length value is 5.1
 The mean versicolor petal length value is 4.26
