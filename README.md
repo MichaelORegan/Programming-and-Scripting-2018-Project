@@ -37,6 +37,8 @@ The mean setosa sepal length value is 5.006
 The median setosa sepal length value is 5.0
 The standard deviation setosa sepal length value is 0.348946987378
 
+![](6%20Col1%20Versicolor%20Sepal%20Length.png)
+
 The minimum versicolor sepal length value is 4.9
 The maximum versicolor sepal length value is 7.0
 The mean versicolor sepal length value is 5.936
@@ -94,7 +96,7 @@ The Sepal Width values are even more closely grouped around the mean.  The stand
 The minimum petal length value is 1.0
 The maximum petal length value is 6.9
 The mean petal length value is 3.75866666667
-he median petal length value is 4.35
+The median petal length value is 4.35
 The standard deviation petal length value is 1.75852918341
 
 ### By Flower
