@@ -107,6 +107,8 @@ The standard deviation petal length value is 1.75852918341
 
 ### By Flower
 
+![](11%20Col3%20Setosa%20Petal%20Length.png)
+
 The minimum setosa petal length value is 1.0
 The maximum setosa petal length value is 1.9
 The mean setosa petal length value is 1.464
