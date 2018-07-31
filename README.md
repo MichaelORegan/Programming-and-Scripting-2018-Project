@@ -83,6 +83,8 @@ The mean versicolor sepal width value is 2.77
 The median versicolor sepal width value is 2.8
 The standard deviation versicolor sepal width value is 0.31064449134
 
+![](10%20Col2%20Verginica%20Sepal%20Width.png)
+
 The minimum virginica sepal width value is 2.2
 The maximum virginica sepal width value is 3.8
 The mean virginica sepal width value is 2.974
