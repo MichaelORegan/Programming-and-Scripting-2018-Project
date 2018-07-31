@@ -29,6 +29,8 @@ The standard deviation sepal length value is 0.825301291785
 
 ### By Flower
 
+![](5%20Col1Setosa%20Sepal%20Length.png)
+
 The minimum setosa sepal length value is 4.3
 The maximum setosa sepal length value is 5.8
 The mean setosa sepal length value is 5.006
