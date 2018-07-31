@@ -120,6 +120,9 @@ Petal Length is where we see the highest standard deviation meaning that this is
 However looking at each flower individually we can see that this is also where the standard deviation is showing the us the measurement are very clusterd around the mean.
 
 ## Petal Width
+
+![](4%20Col4%20Petal%20Width.png)
+
 ### Whole Dataset
 
 The minimum petal width value is 0.1
