@@ -157,6 +157,8 @@ The mean setosa petal width value is 0.244
 The median setosa petal width value is 0.2
 The standard deviation setosa petal width value is 0.106131993291
 
+![](15%20Col4%20Versicolor%20Petal%20Width.png)
+
 The minimum versicolor petal width value is 1.0
 The maximum versicolor petal width value is 1.8
 The mean versicolor petal width value is 1.326
