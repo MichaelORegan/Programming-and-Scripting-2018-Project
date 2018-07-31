@@ -165,6 +165,8 @@ The mean versicolor petal width value is 1.326
 The median versicolor petal width value is 1.3
 The standard deviation versicolor petal width value is 0.195765165441
 
+![](16%20Col4%20Virginica%20Petal%20Width.png)
+
 The minimum virginica petal width value is 1.4
 The maximum virginica petal width value is 2.5
 The mean virginica petal width value is 2.026
