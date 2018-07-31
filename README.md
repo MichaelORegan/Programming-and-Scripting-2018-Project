@@ -175,4 +175,4 @@ The standard deviation virginica petal width value is 0.271889683512
 
 Petal Width is again showing us a higher standard deviation.  The measurement are very different per flower also.  The flowers are again like the steps of a stairs on this measurement with very little overlap.  The Setosa is by far the smallest ranging between .1 and .6, the versicolor jumps then to between 1 and 1.8.  The verginica is by far the largest with a slight overlap with the versicolor.  Verginica ranging between 1.4 and 2.5.
 
-However looking at each flower individually we can see that this is also where the standard deviation is showing the us the measurement are very clusterd around the mean.
+However looking at each flower individually we can see that this is also where the standard deviation is showing us the measurements are very clusterd around the mean.
