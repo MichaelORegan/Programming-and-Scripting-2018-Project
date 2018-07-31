@@ -149,6 +149,8 @@ The standard deviation petal width value is 0.760612618588
 
 ### By Flower
 
+![](14%20Col4%20Setosa%20Petal%20Width.png)
+
 The minimum setosa petal width value is 0.1
 The maximum setosa petal width value is 0.6
 The mean setosa petal width value is 0.244
