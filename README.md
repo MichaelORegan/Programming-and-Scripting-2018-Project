@@ -3,8 +3,6 @@
 
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
-After trying many times to get the push pull to Github to work I was not able to.  I was going to remove everything after the project and reinstall but I now find that the histograms I need can only be put onto the readme file using the push pull.  The files are saved on the repository.
-
 Background:
 Ronald Fisher was a British Statistician and biologist.  In 1936 he wrote a paper called The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
 Fishers Iris Data Set is a set of Data containing 150 pieces of data.  
