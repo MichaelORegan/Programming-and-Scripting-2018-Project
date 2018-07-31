@@ -45,6 +45,8 @@ The mean versicolor sepal length value is 5.936
 The median versicolor sepal length value is 5.9
 The standard deviation versicolor sepal length value is 0.510983365678
 
+![](7%20Col1%20Verginica%20Sepal%20Length.png)
+
 The minimum virginica sepal length value is 4.9
 The maximum virginica sepal length value is 7.9
 The mean virginica sepal length value is 6.588
